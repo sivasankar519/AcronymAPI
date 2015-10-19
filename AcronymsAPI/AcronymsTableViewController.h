@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  AcronymsTableViewController.h
 //  AcronymsAPI
 //
 //  Created by SIVASANKAR DEVABATHINI on 10/19/15.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController<UITableViewDataSource,UITableViewDelegate,UISearchBarDelegate>
+@interface AcronymsTableViewController : UITableViewController<UIAlertViewDelegate>
 
+@property (nonatomic, strong) NSString *searchString;
 
 @end
-
